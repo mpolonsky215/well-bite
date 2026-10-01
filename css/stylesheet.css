@@ -1,0 +1,309 @@
+/* GENERAL */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* estilo de fuente */
+h1,h2,h3,h4,h5,h6{
+    font-family: "Libre Caslon Condensed", serif;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    color: #222;
+    background-color: white;
+}
+
+a{
+    color: #222;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+
+/* HEADER */
+
+header{
+    width: 100%;
+    height: 90px;
+    padding: 25px 6%;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo{
+    float: left;
+}
+
+.logo h1{
+    font-size: 25px;
+}
+
+header nav{
+    float: left;
+    margin-left: 100px;
+    margin-top: 8px;
+}
+
+header nav ul li{
+    float: left;
+    margin-right: 30px;
+}
+
+header nav a{
+    font-size: 14px;
+}
+
+.buscador{
+    float: right;
+    width: 180px;
+    height: 35px;
+    padding: 8px;
+    border: 1px solid #bbb;
+}
+
+.buscador input{
+    width: 130px;
+    border: none;
+}
+
+
+/* PRINCIPAL */
+
+.principal{
+    width: 100%;
+    height: 360px;
+    padding: 40px 6%;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #ddd;
+}
+
+.texto-principal{
+    width: 45%;
+    float: left;
+    padding-top: 50px;
+}
+
+.texto-principal h2{
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.texto-principal p{
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.boton{
+    background-color: #333;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 20px;
+}
+
+.imagen-principal{
+    width: 280px;
+    height: 280px;
+    float: right;
+    margin-right: 130px;
+}
+
+.imagen-principal img{
+    width: 280px;
+    height: 280px;
+}
+
+
+/* CATEGORIAS */
+
+.categorias{
+    width: 100%;
+    height: 210px;
+    padding: 30px 6%;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+}
+
+.categorias h2{
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.categoria{
+    width: 22%;
+    height: 100px;
+    float: left;
+    margin-right: 3%;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.categoria h3{
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.categoria a{
+    font-size: 11px;
+    color: #6f9bd4;
+}
+
+ /* RECETAS */
+
+ .recetas{
+    width: 100%;
+    height: 380px;
+    padding: 35px 6%;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+}
+
+.tipos-recetas{
+    width: 100%;
+    height: 250px;
+}
+.tipo-receta{
+    width: 30%;
+    height: 250px;
+    float: left;
+    margin-right: 3%;
+    border: 1px solid #ccc;
+    background-color: white;
+    position: relative;
+}
+
+.tipo-receta img{
+width: 100%;
+height: 210px;
+}
+
+.dulce{
+    height: auto;
+}
+
+.info-tipo-receta{
+    padding: 12px;
+}
+
+.info-tipo-receta p{
+    font-size: 11px;
+}
+
+.info-tipo-receta a{
+    color: #6f9bd4
+}
+
+ /* VER MÁS */
+ .ver-mas{
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+ }
+
+ .boton-secundario{
+    padding: 9px 25px;
+    border: 1px solid #444;
+    border-radius: 20px;
+ }
+
+  /* NEWSLETTER */
+
+  .newsletter{
+    width: 100%;
+    height: 120px;
+    padding: 30px 6%;
+    background-color: #f3f3f3;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .icono-mail{
+    width: 45px;
+    height: 45px;
+    float: left;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #777;
+    border-radius: 50%;
+  }
+
+  .texto-newsletter{
+    float: left;
+    margin-left: 20px;
+}
+
+.texto-newsletter h2{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.texto-newsletter p{
+    font-size: 11px;
+}
+
+.newsletter form{
+width: 280px;
+float: right;
+}
+
+.newsletter input{
+    width: 220px;
+    padding: 10px;
+    border: 1px solid #aaa;
+
+}
+
+.newsletter button{
+    width: 45px;
+    padding: 10px;
+}
+
+  /* FOOTER */
+  
+  footer{
+  width: 100%;
+  height: 90px;
+  padding: 30px 6%;
+  background-color: white;
+  }
+
+  .logo-footer{
+    float: left;
+  }
+
+  .logo-footer h2{
+    font-size: 20px;
+  }
+
+  footer nav{
+    float: left;
+    margin-left: 100px;
+  }
+
+footer nav ul li{
+    float: left;
+    margin-right: 25px;
+}
+
+footer nav a{
+    font-size: 11px;
+}
+
+.redes-sociales{
+    float: right;
+}
+
+.redes-sociales a{
+    margin-left: 15px;
+    font-size: 11px;
+}
+
+.titulo-recetas h2{
+    font-size: 17px;
+    margin-bottom: 20px;
+}
